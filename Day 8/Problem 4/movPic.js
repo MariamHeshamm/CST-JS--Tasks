@@ -20,7 +20,7 @@
 
     function moveImg()
     {
-        debugger;
+       // debugger;
         var img3 = document.getElementById("img3");
         var img2 = document.getElementById("img2");
         var img1 = document.getElementById("img1");
@@ -81,7 +81,9 @@
             k-=1;
             img2.style.right = k+"px";
             if(k==850){rightP2 = 1;}
-        }        
+        }    
+        document.getElementById("p1").innerText="Image 1 Left: " + j;   
+        document.getElementById("p2").innerText="Image 2 Right: " + k;   
     }
 
     function fireTimer()
