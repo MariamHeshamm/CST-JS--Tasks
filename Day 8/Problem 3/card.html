@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #hh1
+        {
+            color: darkcyan;
+            text-align: center;
+            background-color:  rgb(243, 218, 187);
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        #imgs
+        {
+            margin-left: auto;
+ margin-right: auto;
+        }
+        #p1
+        {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 30px;
+            color: darkcyan;
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+        #txt
+        {
+            margin-top: 1px;
+            width: 330px;
+            height: 120px;
+        }
+       
+    </style>
+</head>
+<body style="background-color:rgb(250, 233, 209);">
+    <h1 id="hh1">Generate Get Well Soon Card</h1>
+    <div style="text-align: center;" id="imgs">
+   
+    <table align="center">
+        <tr>
+          <td><img id="ig1" src="CardMaker/gws.jpg" alt="Get Well Soon" width="110" height="110"></td>
+          <td><img id="ig2" src="CardMaker/gws2.jpg" alt="Get Well Soon" width="110" height="110"></td>
+          <td><img id="ig3" src="CardMaker/gws3.jpg" alt="Get Well Soon" width="110" height="110"></td>
+        </tr>
+        <tr>
+          <td><input id="r1" type="radio" name="rd" checked onclick="addImageBorder('ig1')"/></td>
+          <td><input id="r2" type="radio" name="rd" onclick="addImageBorder('ig2')"/></td>
+          <td><input id="r3" type="radio" name="rd" onclick="addImageBorder('ig3')"/></td>
+        </tr>
+        <tr>
+            <td><img id="ig4" src="CardMaker/gwsf.jpg" alt="Get Well Soon" width="110" height="110"></td>
+            <td><img id="ig5" src="CardMaker/gwsf2.jpg" alt="Get Well Soon" width="110" height="110"></td>
+            <td><img id="ig6" src="CardMaker/gwsf3.jpg" alt="Get Well Soon" width="110" height="110"></td>
+          </tr>
+        <tr>
+            <td><input id="r4" type="radio" name="rd" onclick="addImageBorder('ig4')"/></td>
+            <td><input id="r5" type="radio" name="rd" onclick="addImageBorder('ig5')"/></td>
+            <td><input id="r6" type="radio" name="rd" onclick="addImageBorder('ig6')"/></td>
+        </tr>
+      </table>
+      <p id="p1">Personal Message</p>
+      <textarea id="txt"> </textarea>
+      <br>
+      <button id="btn1" onclick="Generate()">Generate</button>
+    </div>
+    <script src="cookie.js"></script>
+    <script src="card.js"></script>
+    
+</body>
+</html>
