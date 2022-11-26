@@ -1,4 +1,4 @@
-# CST-JS--Tasks
+# CST-JS--Tasks Demos
 <h1>Cookie</h1>
 
 https://user-images.githubusercontent.com/49057961/204107652-ffff8e73-0e89-4e25-9d9e-5ea3ddb5d84a.mp4
