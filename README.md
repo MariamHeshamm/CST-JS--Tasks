@@ -21,7 +21,7 @@ https://user-images.githubusercontent.com/49057961/204106051-21586eef-2364-446f-
 
 <h1>Problem B.1</h1>
 
-https://user-images.githubusercontent.com/49057961/204106162-dc11b993-c0a8-4d11-9d61-08bcf7a1b63d.mp4
+https://user-images.githubusercontent.com/49057961/204108232-8f0dc906-7dfe-4380-9913-14119bab0163.mp4
 
 <h1>Problem B.2</h1>
 
