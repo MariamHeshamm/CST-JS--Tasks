@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body >
+ <script>
+  if(document.cookie!='') {console.log("d5lt"); window.location.assign( "./welcome.html"); }
+</script>
+    <p><b>Enter your name:</b></p>
+    <input id="name"  name="name" required type="text"/>
+    <p><b>Enter your age:</b></p>
+    <input id="age"  name="age" required type="text"/>
+    <p><b>Select your gender:</b></p>
+    <input id="gender"  name="gender" required type="radio"  value="Male" />
+    <img src="/Cookie/1.jpg" width="100" height="100">
+    
+    <input id="gender"  name="gender" required type="radio" value="Female"/>
+    <img src="/Cookie/2.jpg" width="100" height="100">
+    <p><b>Select your favourite colour:</b></p>
+    <select name="color">
+      <!--  <option value ="" disabled selected>Select a color</option>-->
+        <option>red</option>
+        <option>blue</option>
+        <option>green</option>
+</select>
+<br>
+<br>
+
+    <button id="register" onclick="getData()">register</button>
+    <script src="cookie.js"></script>
+   <script src="register.js"></script>
+  
+</body>
+</html>
