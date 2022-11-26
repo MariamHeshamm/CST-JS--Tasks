@@ -1,4 +1,8 @@
 # CST-JS--Tasks
+<h1>Cookie</h1>
+
+https://user-images.githubusercontent.com/49057961/204107652-ffff8e73-0e89-4e25-9d9e-5ea3ddb5d84a.mp4
+
 <h1>Problem A.1</h1>
 
 https://user-images.githubusercontent.com/49057961/204105668-87f10cd9-f584-4580-97f9-181aecfc82c0.mp4
